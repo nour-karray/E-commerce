@@ -79,8 +79,7 @@ class Article
         // Exécution de la requête
         $pdo->exec($sql) or die(print_r($pdo->errorInfo()));
     }
-    public function getArticleById($id)
-    {
+    public function getArticleById($id) {
         require_once("pdo.php");
         $cnx = new connexion();
         $pdo = $cnx->cnxBase();
@@ -91,7 +90,7 @@ class Article
 
         return $result;
     }
-
+    
 }
 ?>
 ssssssssssssssss
