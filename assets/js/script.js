@@ -714,18 +714,18 @@
             nextArrow: '<i class="nav-btn nav-btn-rt ti-arrow-right"></i>',
 
             responsive: [{
-                    breakpoint: 500,
-                    settings: {
-                        slidesToShow: 3,
-                        infinite: true
-                    }
-                },
-                {
-                    breakpoint: 400,
-                    settings: {
-                        slidesToShow: 2
-                    }
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 3,
+                    infinite: true
                 }
+            },
+            {
+                breakpoint: 400,
+                settings: {
+                    slidesToShow: 2
+                }
+            }
             ]
 
         });
